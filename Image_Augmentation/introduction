@@ -8,3 +8,6 @@ vertical or horizontal flip to generate more non-violation images to make the da
 Introduction of the folder
 The folder contains notebook to illustrate how the image augmentation works. You can change the parameters in the image generator, for example, changing rotation angles,
 to generate images by yourselves. Also, the folder contains the original non-violation images and some examples of the augmented images we use in our project. 
+
+File name and corresponding content of each file
+
