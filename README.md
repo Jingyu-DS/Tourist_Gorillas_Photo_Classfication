@@ -3,7 +3,7 @@
 
 There are several folders created for our implemented techniques and models built following different logics. Each folder contains an introduction file. You could regard the introduction file in each folder as a brief description of the contents of each notebook and their goals. 
 
-The folder can be referenced following our project logic:
+The folders can be referenced following our project logic:
 
 #### Step 1 -> Folder "Image Augmentation": 
 
