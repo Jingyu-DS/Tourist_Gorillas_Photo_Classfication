@@ -1,0 +1,2 @@
+### Introduction of Object Detection
+This folder is created to store our implementations about detecting objects in the images and creating features used in multi-input models. 
