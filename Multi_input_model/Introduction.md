@@ -9,5 +9,5 @@ Then, we start the training process. The multi-layer perceptron is trained on no
 
 This folder is created to store all the experienments done by using multi input logic. Multi-input model, compared to the individual models, further improves the model performance and reduces the overfitting issue as well. 
 
-### Introduction of Files in the Folder Content
+### Introduction of File Content in the Folder
 
