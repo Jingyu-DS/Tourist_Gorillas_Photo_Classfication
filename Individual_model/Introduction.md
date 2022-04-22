@@ -1,5 +1,5 @@
 ### Description of Individual models 
-This folder is created to store all the indivual models implemented during the project. 
+This folder is created to store all the individual models implemented during the project. 
 
 #### Models include: 
 1. ResNet50
