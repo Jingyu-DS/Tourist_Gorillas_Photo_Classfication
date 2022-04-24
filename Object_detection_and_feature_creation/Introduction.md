@@ -12,3 +12,5 @@ Technical_Feature_Creation_Object_detection_algorithm.ipynb: notebook contains c
 
 labels.csv: the label file is used in the notebook for the detector to function. 
 
+Stress_testing_people_distancing_detector_Feature_Creation_Object_detection_algorithm.ipynb: this notebook is for stress testing use in human distancing detection case. We do not change the column name in the feature CSV file for the convenience to train with the animal images together. So the animal target in the file is actually correspnding to the features obtained from the second person target. 
+
