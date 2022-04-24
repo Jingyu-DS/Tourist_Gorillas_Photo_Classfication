@@ -7,3 +7,4 @@ the images into the dominated group, which is not optimal. Thus, image augmentat
 The folder contains notebook to illustrate how the image augmentation works. You can change the parameters in the image generator, for example, changing rotation angles, to generate images by yourselves. Also, the folder contains the original non-violation images and some examples of the augmented images we use in our project. 
 
 ### File name and corresponding content of each file
+Data_Augmentation.ipynb: notebook contains code to perform image augmentation in our project
