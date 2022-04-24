@@ -12,6 +12,8 @@ This folder is created to store all the experienments done by using multi input 
 ### Introduction of File Content in the Folder
 The files overall are about the gorrila image datasets, gorilla feature csv files and notebook with code included.
 
+Multi_input_with_inception_model_try_Feature_Selection_Multi_input_classifier.ipynb: notebook contains code for multi-input model using data introduced below
+
 Violation-training-detected(-continued): folders of images for training in violation group
 
 Violation-validation-detected: folder of images for validation for violation group
@@ -35,5 +37,7 @@ Non-violation-training.csv: CSV file of features for training in non-violation g
 Non-violation-validation.csv: CSV file of features for validation in non-violation group
 
 Non-violation-testing.csv: CSV file of features for testing in non-violation group
+
+
 
 
