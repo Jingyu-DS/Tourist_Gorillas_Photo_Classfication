@@ -8,4 +8,7 @@ In some images, there can be more than one person and more than one animal in th
 There are two main logics of models we have implemented. The first type model only trains on the image data (seen in the individual model folder and ensemble model folder). So after getting the images with object detected, those models can be trained using only the images. The second type model trains on the non-image features and image data at the same time and generate results together (seen in multi-input model folder). In a word, not all models we have implemented have used the csv files containing non-image features. 
 
 ###  Brief Introduction of Files in the Folder
+Technical_Feature_Creation_Object_detection_algorithm.ipynb: notebook contains code to detect objects in images and creates features along the way. The outputs of this notebook would be the images with object detected and a CSV file with features included for all the images going into the detector. 
+
+labels.csv: the label file is used in the notebook for the detector to function. 
 
