@@ -13,16 +13,27 @@ This folder is created to store all the experienments done by using multi input 
 The files overall are about the gorrila image datasets, gorilla feature csv files and notebook with code included.
 
 Violation-training-detected(-continued): folders of images for training in violation group
+
 Violation-validation-detected: folder of images for validation for violation group
+
 Violation-testing-detected: folder of images for testing for violation group
+
 Non-violation-training-detected(-continued): folders of images for training for non-violation group
+
 Non-violation-validation-detected: folder of images for validation for non-violation group
+
 Non-violation-testing-detected: folder of images for testing for non-violation group
+
 Violation-training.csv: CSV file of features for training in violation group
+
 Violation-validation.csv: CSV file of features for validation in violation group
+
 Violation-testing.csv: CSV file of features for testing in violation group
+
 Non-violation-training.csv: CSV file of features for training in non-violation group
+
 Non-violation-validation.csv: CSV file of features for validation in non-violation group
+
 Non-violation-testing.csv: CSV file of features for testing in non-violation group
 
 
