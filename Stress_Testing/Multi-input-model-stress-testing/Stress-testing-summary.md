@@ -1,0 +1,2 @@
+### Summary of stress testing on Multi-input model with Inception V3
+The multi-input model with Inception V3 has been stress tested on elephant, real lion and tiger, giraffe and phanda via transfer learning. Also, it is tested on campus statue images, mixed data including campus statue images and gorilla images. For human distancing cases, the model is tested via both transfer learning and training directly. 
