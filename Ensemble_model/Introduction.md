@@ -2,17 +2,17 @@
 This folder is used to store the ensemble model we have built. The ensemble model bases on several well-performed model to further improve the performance and increase 
 the stability of model. 
 
+Different convolutional neural network (CNN) models can provide different accuracy for image classification. An ensemble of multiple models can theoretically provide a higher accuracy than the single models. The type of ensemble method we choose is heterogeneous ensemble. This method is the combination of different types of classifiers and all the classifiers were built on the same data, and this method is suitable for small datasets like ours. The overall result of this ensemble classifier is carried out using all the results of each combined model.
+
+This ensemble classifier combined Densenet 161, ResNet50, ResNet152, VGG16, and VGG19_bn. The data will be first trained in every single model separately. These five pre-trained models here were used as a starting point for our model, so we utilized the pre-trained weights to get a better model performance. After training the data in the five models, we save the best model weights for future use such as model reproduction. Then we define the ensemble classifier, train our data in this ensemble classifier, and saved the model weights. The ensemble classifier takes five inputs which are also the outputs of the five models, utilize a linear layer to assign weights to the five models, and comes up with the final prediction. Theoretically, the ensemble model will have a better model performance than the single models in this combination. The model will also perform more stable than the single models. The results will prove this hypothesis.
+
 #### Single Models used in the ensemble
 ##### DenseNet 161
-
+DenseNet based on the idea that convolutional networks can be substantially deeper, more accurate, and efficient to train if they contain shorter connections between layers close to the input and close to the output (Gopani, 2020). Fewer parameters and high accuracy are achieved using the short and dense connections between layers. Concatenation is applied in the Dense block. Each layer receives a “collective knowledge” or feature maps from all preceding layers, the network becomes thinner and compact (Tsang, 2019). DenseNet is able to reduce the effect of vanishing-gradient problem and strengthen the feature propagation with a strong gradient flow that propagate error signal to earlier layers more directly.
 
 ##### ResNet 50
-
-
 ##### ResNet 152
-
-
+ResNet stands for Residual Neural Network, and ResNet-50 is also a convolutional neural network with 50 layers deep. The ResNet model was the winner of the ImageNet challenge in 2015. The model aimed to tackle the issue similar to Vanishing Gradient appears in Gradient Descent and is designed to avoid poor performance when the model becomes deeper. The core of ResNet is the idea of “identity shortcut connection” which bypasses/skips one or more layers. The authors argue that it is easier to let the stacked layers fit a residual mapping, and the training error should not be higher in the deeper models. By making use of the shortcut connections, ResNet can achieve very high accuracy with about 25 million parameters, much less than VGG models. However, there are also some drawbacks to the model. One issue is the increased complexity of architecture and adding skip level connections is complicated and not easy to determine (Arjun, 2020).
 ##### VGG 16
-
-
 ##### VGG 19 bn
+VGG stands for Visual Geometry Group, which is the group of researchers at the University of Oxford who designed this model. VGG-16 is the model with very deep convolution networks for large-scale image recognition, and 16 implies there are 16 layers in this model. VGG family also has other different models such as VGG-19 which contains 19 layers. VGG-16 is extensively used in many deep learning image classification tasks. The strength of VGG is its ease of implementation and its good performance. However, the 138 billion parameters made it a larger and slower model than other CNN models.
