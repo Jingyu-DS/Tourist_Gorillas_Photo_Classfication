@@ -1,2 +1,0 @@
-#### Brief introduction of folder
-We take images by ourselves using lion and pig statues around the campus for the stress testing use. This folder contains all the data and feature information we use to perform the stress testing. The image data is splitted into 11 parts in order to upload to the github. If you would like to reproduce the results, you might need to combine those images together. Four CSV files contain the features. 
