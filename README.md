@@ -20,4 +20,4 @@ These three folders don't have a sequential order. We are experimenting on the m
 
 In a word, the multi-input model and ensemble model are built on the base of individual models with good performance but follow different logics to further improve or stablize the model. 
 
-The stress testing folder contains all the stress tests we have done. The folder is organized to showcase the stress testing cases for individual models, multi-input models and ensemble models separately. Please check there for more details. 
+The stress testing folder contains all the stress tests we have done. The folder is organized to showcase the stress testing cases for multi-input models and ensemble models separately. Please check there for more details. 
